@@ -1,65 +1,27 @@
-﻿.container1 {
-    background:red;
-    padding-bottom: 164px;
-    padding-top: 20px;  
-}
-.body {
-    background: #fff;
-    color: #1c1e21;
-    direction: ltr;
-    line-height: 1.34;
+﻿.body{
     margin: 0;
-    padding: 0;
-    unicode-bidi: embed;
 }
-.logo{
-    color:white;
+.header{
+    background:blue;
+    width:100%;
+    height:100px;
+    background-attachment: fixed;
+}
+.container1 {
+    background: black;
+    width: 1052px;
+    height: 450px;
+    margin-left: 625px;
 }
 .container2 {
-    background: black;
-    height: 496px;
-    margin: 0 40px;
-    width: auto;
+    background: red;
+    width: 772px;
+    height: 450px;
+    margin-left: -624px;
 }
-.container3 {
-    background-color:gold;
-    width: 400px;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    font-family: inherit;
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    vertical-align: top;
-}
-.container4 {
-    padding: 112px 0 16px;
-    font-family: inherit;
-    display: block;
-    font-size
-}
-.login-box1 {
-    margin-left:75%;
-    background:white;
-    font-family: inherit;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 12px;
-}
-.login-box2 {
-    font-family: inherit;
-    height: 456px;
-    width: 396px;
-    display: block;
-    font-size: 12px;
-
+.logo-container {
+    background: gold;
+    width: 490px;
+    height: 298px;
+    margin-left: 182px;
 }
