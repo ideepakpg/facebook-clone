@@ -3,12 +3,12 @@
     padding:0;
 }
 .wrapper {
-    background: white;
+    background: #ffff;
     width: 1351px;
     height: 877.3px;
 }
 .header{
-    background:blue;
+    background:#ffff;
     width:100%;
     height:100px;
     background-attachment: fixed;
@@ -19,13 +19,13 @@
     height:720px;
 }
 .container1 {
-    background: black;
+    background: #ffff;
     width: 703px;
     height: 720px;
     padding-right: 51px;
 }
 .container2 {
-    background: red;
+    background: #ffff;
     width: 846px;
     height: 720px;
 }
@@ -34,7 +34,7 @@
     width: 580px;
     height: 266.08px;
     margin-left: 182px;
-    margin-top: 131px;
+    margin-top:106px;
 }
 .fblogo-img {
     height: 106px;
@@ -51,16 +51,22 @@
     padding: 0 0 20px;
 }
 .login-box {
-    background: green;
+    background: #ffff;
+    border: none;
     width: 396px;
-    height: 456px;
+    height: 349.83px;
     margin-left: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
 }
 .box {
-    height: 456px;
-    width: 396px;
+    height: 396px;
+    width: 315.83px;
+    margin-top: 31px;
 }
 .credentials {
+    color: #1d2129;
     font-family: inherit;
     background: #FFFFFF;
     height: 22px;
@@ -74,6 +80,7 @@
     margin-left: 15px;
     margin-top: 13px;
     width: 330px;
+    border: 1px solid #dddfe2;
 }
 .login-button {
     background-color: #1877f2;
@@ -101,15 +108,28 @@
     font-size: 14px;
     font-weight: 500;
     font-family: inherit;
-    text-align:center;
-    cursor:pointer;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 75px;
 }
     .forgotten-pass:hover {
         text-decoration: underline;
     }
+.lines {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 0px 11px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+    margin-left: 26px;
+    margin-right: -51px;
+}
 .create-new-ac {
-    background: green;
-    color: #1877f2;
+    background: #06a90c;
+    color: #ffff;
+    height: 45px;
     text-align: center;
     cursor: pointer;
     font-size: 20px;
@@ -119,16 +139,115 @@
     margin-left: 104px;
     border: none;
 }
-.some-text {
-    border-top: none;
+.some-text {       /* Create a Page for a celebrity, brand or business. border-top: none;*/
     color: #1c1e21;
     font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
     padding-top: 0;
-    margin-top: 28px;
+    margin-top: -38px;
     text-align: center;
 }
+.footer {
+    background: #ffff;
+    width: 1019px;
+    height: 157.3px;
+    color: #1c1e21;
+    margin-left: 323px;
+    direction: ltr;
+    line-height: 1.34;
+    unicode-bidi: embed;
+}
+.languages {
+    background: #ffff;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: inherit;
+    color: #737373;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 980px;
+    direction: ltr;
+    line-height: 1.34;
+    unicode-bidi: embed;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.plus-button {
+    vertical-align: top;
+    display: inline-block;
+    list-style-type: none;
+    font-family: inherit;
+    color: #737373;
+    margin: 0 auto;
+    width: 462px;
+    font-size: 12px;
+}
+.footer-lines {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    font-family: inherit;
+    display: block;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+.roles {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    direction: ltr;
+    line-height: 1.34;
+}
+.footer-roles {
+    background: #ffff;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: inherit;
+    color: #737373;
+    font-size: 12px;
     
-
+    width: 980px;
+    direction: ltr;
+    line-height: 1.34;
+    unicode-bidi: embed;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.copyright {
+    font-size: 11px;
+    font-family: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+.meta {
+    font-size: 11px;
+    font-family: inherit;
+    display: block;
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
