@@ -94,7 +94,9 @@
     color: #fff;
     font-weight: bold;
     box-sizing: content-box;
+    position: relative;
     text-align: center;
+    text-shadow: none;
     vertical-align: middle;
     cursor: pointer;
     display: inline-block;
@@ -131,6 +133,7 @@
     color: #ffff;
     height: 45px;
     text-align: center;
+    border-radius: 6px;
     cursor: pointer;
     font-size: 20px;
     line-height: 38px;
